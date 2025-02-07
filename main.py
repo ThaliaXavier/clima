@@ -39,7 +39,7 @@ global imagem
 
 def informacao():
     
-    chave = '116e15c1fc490d8442e3a8d49a8878a3'
+    chave = 'Sua_API_KEY'
     cidade = e_local.get()
     api_link = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(cidade, chave)
     r = requests.get(api_link)
